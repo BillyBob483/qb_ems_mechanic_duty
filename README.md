@@ -1,8 +1,8 @@
 # qb_ems_mechanic_duty
 
-Ems & Mechanic go on and off duty Using QB-Target
+***Ems & Mechanic go on and off duty Using QB-Target***
 
-qb-target/init.lua config.peds
+---qb-target/init.lua config.peds
 
 ```{ --EMS Duty
   model = 's_m_m_doctor_01',
@@ -19,7 +19,7 @@ qb-target/init.lua config.peds
   blockevents = true,
   },```
 
-qb-target/init.lua config.targetmodels
+---qb-target/init.lua config.targetmodels
 
     ["EMS On/Off Duty"] = {
         models = {
@@ -50,14 +50,14 @@ qb-target/init.lua config.targetmodels
         distance = 3.5,
     },
 
-qb-ambulancejob/client/main.lua
+---qb-ambulancejob/client/main.lua
 
 ```RegisterNetEvent("Ambulance-Sign")
 AddEventHandler("Ambulance-Sign", function()
     TriggerServerEvent("QBCore:ToggleDuty")
 end)```
 
-qb-mechanicjob/client/main.lua
+---qb-mechanicjob/client/main.lua
 
 RegisterNetEvent("LSC-Sign")
 AddEventHandler("LSC-Sign", function()
