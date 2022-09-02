@@ -4,7 +4,7 @@ Ems & Mechanic go on and off duty Using QB-Target
 
 qb-target/init.lua config.peds
 
-{ --EMS Duty
+``{ --EMS Duty
   model = 's_m_m_doctor_01',
   coords = vector4(311.29, -599.22, 42.29, 51.56),
   freeze = true,
@@ -17,7 +17,7 @@ qb-target/init.lua config.peds
   freeze = true,
   invincible = true,
   blockevents = true,
-  },
+  },``
 
 qb-target/init.lua config.targetmodels
 
