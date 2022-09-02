@@ -52,10 +52,10 @@ qb-target/init.lua config.targetmodels
 
 qb-ambulancejob/client/main.lua
 
-RegisterNetEvent("Ambulance-Sign")
+```RegisterNetEvent("Ambulance-Sign")
 AddEventHandler("Ambulance-Sign", function()
     TriggerServerEvent("QBCore:ToggleDuty")
-end)
+end)```
 
 qb-mechanicjob/client/main.lua
 
